@@ -1,0 +1,7 @@
+Métrica,Regresión logística (test),Reglas del ejercicio (con recuperación),Reglas del ejercicio (sin recuperación)
+Tasa de aprobación (objetivo),25.00%,25.00%,25.00%
+Préstamos malos en la cartera aprobada,45.78%,28.58%,67.80%
+Préstamos malos en solicitudes rechazadas,80.76%,—,—
+AUROC,0.7462,0.8538,0.5704
+GINI,0.4924,—,—
+Captura de malos excluidos de la cartera,84.19%,—,—

@@ -1,0 +1,11 @@
+{
+  "nombre": "Modelo de decisión crediticia v1.0",
+  "objetivo_aprobacion": 0.25,
+  "definicion_malo": "recuperación < 70%",
+  "modelo": "Regresión logística (estandarizada) sobre variables de solicitud",
+  "p_cutoff": 0.6097982613647032,
+  "score_cutoff": 600.0,
+  "score_interno": 613.0680664864846,
+  "factor_scorecard": 28.85390081777927,
+  "offset_scorecard": 612.8822366153034
+}
