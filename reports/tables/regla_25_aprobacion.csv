@@ -1,0 +1,4 @@
+politica,solicitudes_total,solicitudes_aprobadas,monto_solicitado_total,monto_aprobado,tasa_aprobacion_conteo,tasa_aprobacion_monto,aprobados_resueltos,aprobados_buenos,aprobados_malos,bad_rate_aprobados
+Scorecard,37450,9447,534672725.0,133668150.0,0.2523,0.25,9447,9107,340,0.036
+Aleatorio,37450,9402,534672725.0,133667875.0,0.2511,0.25,9402,8574,828,0.0881
+Aprobar todos,37450,37450,534672725.0,534672725.0,1.0,1.0,37450,34069,3381,0.0903

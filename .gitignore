@@ -1,0 +1,33 @@
+# Datos crudos (grandes / no versionados)
+data/raw/*.xlsx
+data/processed/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# LaTeX auxiliares
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+reports/*.nav
+reports/*.snm
+reports/*.vrb
+reports/*.fls
+reports/*.fdb_latexmk
+reports/*.synctex.gz
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Otros
+*.tmp
+*.bak

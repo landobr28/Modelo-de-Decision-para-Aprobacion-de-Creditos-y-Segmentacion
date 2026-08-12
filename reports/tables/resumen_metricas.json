@@ -1,0 +1,111 @@
+{
+  "n_total": 292849,
+  "n_resueltos": 84739,
+  "n_desarrollo": 38722,
+  "n_oot": 37450,
+  "tasa_mora_desarrollo": 0.12099065130933319,
+  "tasa_mora_oot": 0.0902803738317757,
+  "comparativa_cv": {
+    "Logistica": {
+      "KS_cv": 0.2885073619896786,
+      "AUROC_cv": 0.7005008643208883,
+      "Gini_cv": 0.401002,
+      "AR_cv": 0.4010414591040556,
+      "LogLoss_cv": 0.6261585763899603,
+      "Brier_cv": 0.2176017577655063
+    },
+    "RandomForest": {
+      "KS_cv": 0.28564440937821794,
+      "AUROC_cv": 0.6961578599771628,
+      "Gini_cv": 0.392316,
+      "AR_cv": 0.3923552323648571,
+      "LogLoss_cv": 0.5829228100551473,
+      "Brier_cv": 0.19865472284752236
+    },
+    "XGBoost": {
+      "KS_cv": 0.2851434729404429,
+      "AUROC_cv": 0.6969163226821813,
+      "Gini_cv": 0.393833,
+      "AR_cv": 0.3938721906794793,
+      "LogLoss_cv": 0.3413228024835398,
+      "Brier_cv": 0.09988621256133416
+    }
+  },
+  "comparativa_oot": {
+    "Logistica": {
+      "KS": 0.29428190640028,
+      "AUROC": 0.6982043739218482,
+      "Gini": 0.396409,
+      "AccuracyRatio": 0.3964486774386993,
+      "LogLoss": 0.7032546477245913,
+      "Brier": 0.2505297429489431
+    },
+    "RandomForest": {
+      "KS": 0.2939753795229958,
+      "AUROC": 0.6965100116211608,
+      "Gini": 0.39302,
+      "AccuracyRatio": 0.3930598710300152,
+      "LogLoss": 0.6385379722591347,
+      "Brier": 0.22422919703770272
+    },
+    "XGBoost": {
+      "KS": 0.28165304767264726,
+      "AUROC": 0.6900717014010114,
+      "Gini": 0.380143,
+      "AccuracyRatio": 0.3801828893820528,
+      "LogLoss": 0.2977957990160215,
+      "Brier": 0.0836564491991007
+    }
+  },
+  "scorecard": {
+    "KS": 0.2650688740491149,
+    "AUROC": 0.6744810966078036,
+    "Gini": 0.348962,
+    "AR": 0.3490417208211306
+  },
+  "scorecard_variables": [
+    "grade",
+    "term_months",
+    "income_per_loan",
+    "revol_util"
+  ],
+  "aprobacion": {
+    "politica": "Scorecard",
+    "solicitudes_total": 37450,
+    "solicitudes_aprobadas": 9447,
+    "monto_solicitado_total": 534672725.0,
+    "monto_aprobado": 133668150.0,
+    "tasa_aprobacion_conteo": 0.2523,
+    "tasa_aprobacion_monto": 0.25,
+    "aprobados_resueltos": 9447,
+    "aprobados_buenos": 9107,
+    "aprobados_malos": 340,
+    "bad_rate_aprobados": 0.036
+  },
+  "aprobacion_aleatorio": {
+    "politica": "Aleatorio",
+    "solicitudes_total": 37450,
+    "solicitudes_aprobadas": 9402,
+    "monto_solicitado_total": 534672725.0,
+    "monto_aprobado": 133667875.0,
+    "tasa_aprobacion_conteo": 0.2511,
+    "tasa_aprobacion_monto": 0.25,
+    "aprobados_resueltos": 9402,
+    "aprobados_buenos": 8574,
+    "aprobados_malos": 828,
+    "bad_rate_aprobados": 0.0881
+  },
+  "aprobacion_todos": {
+    "politica": "Aprobar todos",
+    "solicitudes_total": 37450,
+    "solicitudes_aprobadas": 37450,
+    "monto_solicitado_total": 534672725.0,
+    "monto_aprobado": 534672725.0,
+    "tasa_aprobacion_conteo": 1.0,
+    "tasa_aprobacion_monto": 1.0,
+    "aprobados_resueltos": 37450,
+    "aprobados_buenos": 34069,
+    "aprobados_malos": 3381,
+    "bad_rate_aprobados": 0.0903
+  }
+}
