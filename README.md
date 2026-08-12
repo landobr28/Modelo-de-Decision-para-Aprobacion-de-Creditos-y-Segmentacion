@@ -4,6 +4,24 @@ Modelo de reglas de decisión (*scorecard* interpretable) para la aprobación de
 
 ---
 
+## Estructura de ramas
+
+Este repositorio organiza la evolución del proyecto en tres ramas:
+
+| Rama | Descripción |
+|:---|:---|
+| **`master`** | Versión original: modelo de reglas de decisión (scorecard interpretable). |
+| **`mejora`** | Mejora de `master`: pipeline MLOps, scorecard estadístico (regresión logística), informe y presentación. |
+| **`proyecto`** | Rehecho desde cero sobre la base del modelo original: pipeline modular (`src/`), scorecard con validación CV/OOT, informe LaTeX. |
+
+```bash
+git branch -a          # listar ramas
+git switch mejora      # cambiar a la versión mejorada
+git switch proyecto    # cambiar a la versión rehecha
+```
+
+---
+
 ## Tabla de contenido
 
 1. [Resumen ejecutivo](#resumen-ejecutivo)
